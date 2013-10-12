@@ -1,0 +1,25 @@
+body{
+	background-image:url('../images/pattern1.png');
+}
+
+#container{
+	width:800px;
+	margin:10px auto;
+	background:white;
+	font-family: Helvetica
+}
+
+
+h1{background-color: orangered;
+padding: 3px;
+border-radius: 0px;
+color: white;}
+
+footer{background-color: orangered;
+	margin:10px:;}
+
+h2{padding:3px;}
+
+p{padding:3px;
+margin-left:50px;
+font-family: Helvetica}
