@@ -18,4 +18,52 @@ header {
 NAVIGATION 
 -----------------------------------------------------------------------------*/
 
+nav	{
+	margin: 0px;
+
+}
+
+li {
+		float: left;
+		margin: 0 10px;
+		height:	40px;
+}
+
+nav ul li a {
+	display: block;
+	/*height: 40px;*/
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	/*vertical-align: middle;	*/
+	padding: 30px;
+
+}
+
+nav ul li a:hover {
+	background-image: url("../images/bg_nav_rollover.png");
+
+
+
+}
+
+nav ul {
+	padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+
+
 

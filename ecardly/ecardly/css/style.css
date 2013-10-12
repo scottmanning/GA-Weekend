@@ -61,6 +61,20 @@ h1   {
 
 }
 
+main {
+     float: left;
+     width: 640px;
+
+}
+
+aside {
+     width: 290px;
+     float: left;
+     background-color: white;
+     margin: 10px 0px 0px 10px;
+
+}
+
 h2 {
      font-size:20px;
 
@@ -82,6 +96,9 @@ img {
      margin-right: 10px;
 
 }
+
+#sidebar {
+     float: left;
 
 
 
