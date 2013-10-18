@@ -4,13 +4,92 @@
 /*        GENERAL             *
 /*****************************/	
 
+body {
+	
+	background: #b6bec7 url(../images/bg-gradient.jpg) repeat-x;
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	}
 
 
+#container {
+	width: 800px;
+	margin: 30px auto;
+	}
+
+#container article {
+	padding: 20px 30px;
+	clear: both;
+	background-color: white;
+	}
 
 
 /*****************************/		
 /*  CSS SPRITE NAVIGATION     *
 /*****************************/	
 	
+nav li {
+	float: left;
+	}
 
-	
+nav li a {
+	background: url(../images/menu-sprite.jpg) no-repeat;
+	display: block;
+	height: 60px;
+	text-indent: -100%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-right: 15px;
+	}	
+
+nav li.home a {
+	width: 115px;
+	background-position: -5px -5px;
+
+	}
+
+nav li.about a {
+	width: 120px;
+	background-position: -125px -5px;
+
+	}
+
+nav li.contact a {
+	width: 160px;
+	background-position: -250px -5px;
+
+	}
+
+
+
+
+nav li.home a:hover {
+	background-position: -5px -75px;
+	}
+
+nav li.home a.selected {
+	background-position: -5px -145px;
+	}
+
+
+
+nav li.about a:hover {
+	background-position: -125px -75px;
+	}
+nav li.about a.selected {
+	background-position: -125px -145px;
+	}
+
+
+
+nav li.contact a:hover {
+	background-position: -250px -75px;
+	}
+
+nav li.contact a.selected {
+	background-position: -250px -145px;
+	}
+
+
+
+
